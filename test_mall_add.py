@@ -11,14 +11,19 @@ class TestAdvanced:
     def setup_class(self):
         self.driver = webdriver.Chrome()
         self.driver.implicitly_wait(3)
+        # 测试数据统一管理
+        self.url = "http://litemall.hogwarts.ceshiren.com/vue/index.html#/login?redirect=user"
+        self.username = 'Henry'
+        self.password = 'password'
+        self.expected = '魔兽世界 蛋盾包 双肩包'
 
     def teardown_class(self):
         self.driver.quit()
 
     def test_advanced(self):
-        self.driver.get("http://litemall.hogwarts.ceshiren.com/vue/index.html#/login?redirect=user")
-        self.driver.find_element(By.CSS_SELECTOR, "input[name='user']").send_keys("Henry")
-        self.driver.find_element(By.CSS_SELECTOR, "input[name='password']").send_keys("password")
+        self.driver.get(self.url)
+        self.driver.find_element(By.CSS_SELECTOR, "input[name='user']").send_keys(self.username)
+        self.driver.find_element(By.CSS_SELECTOR, "input[name='password']").send_keys(self.password)
         self.driver.find_element(By.CSS_SELECTOR, ".van-button").click()
         self.driver.find_element(By.CSS_SELECTOR, ".van-tabbar-item").click()
         WebDriverWait(self.driver, 10).until(
@@ -43,4 +48,4 @@ class TestAdvanced:
 
         res = self.driver.find_elements(By.CSS_SELECTOR, ".van-card__title")
         res_text = [i.text for i in res]
-        assert "魔兽世界 蛋盾包 双肩包" in res_text
+        assert self.expected in res_text
