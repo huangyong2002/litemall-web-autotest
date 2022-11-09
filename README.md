@@ -12,3 +12,6 @@
 - [x] 优化代码(添加setup_class和teardown_class)
 - [x] 优化断言
 - [x] 支持测试数据统一管理（URL、用户名、密码、期望结果）
+
+# 项目演示
+https://github.com/huangyong2002/litemall-web-autotest/blob/master/演示视频.mp4
