@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sun Dec 04 21:28:18 CST 2022","Sun Dec 04 21:28:31 CST 2022","12905","","test_mall_add","TestAdvanced","","","test_advanced",""

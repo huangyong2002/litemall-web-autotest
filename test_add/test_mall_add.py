@@ -22,6 +22,7 @@ class TestAdvanced:
 
     def test_advanced(self):
         self.driver.get(self.url)
+        time.sleep(10)
         self.driver.find_element(By.CSS_SELECTOR, "input[name='user']").send_keys(self.username)
         self.driver.find_element(By.CSS_SELECTOR, "input[name='password']").send_keys(self.password)
         self.driver.find_element(By.CSS_SELECTOR, ".van-button").click()
