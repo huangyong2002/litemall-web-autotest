@@ -13,7 +13,7 @@ class TestAdvanced:
         self.driver.implicitly_wait(3)
         # 测试数据统一管理
         self.url = "http://litemall.hogwarts.ceshiren.com/vue/index.html#/login?redirect=user"
-        self.username = 'Henry'
+        self.username = 'henty'
         self.password = 'password'
         self.expected = '魔兽世界 蛋盾包 双肩包'
 
