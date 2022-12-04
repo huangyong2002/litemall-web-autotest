@@ -13,5 +13,10 @@
 - [x] 优化断言
 - [x] 支持测试数据统一管理（URL、用户名、密码、期望结果）
 
+[V3.0版本](https://github.com/huangyong2002/litemall-web-autotest/tree/V3.0)  
+- [x] 基于allure生成测试报告
+- [x] 基于jenkins实现持续集成
+- [ ] 使用POM设计模式重构项目
+
 # 项目演示
 https://github.com/huangyong2002/litemall-web-autotest/blob/master/演示视频.mp4
