@@ -1,1 +1,0 @@
-{"1d02cf4d3a57d848a66e4b75b7f486d0":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"7bb7c5c57cf68c69","reportUrl":"http://localhost:8080/job/litemall-ui-autotest/2/allure/#testresult/7bb7c5c57cf68c69","status":"passed","time":{"start":1670160498682,"stop":1670160511587,"duration":12905}}]}}
