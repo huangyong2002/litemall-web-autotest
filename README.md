@@ -1,5 +1,5 @@
 # litemall-web-autotest
-针对功能类似于淘宝的litemall进行web自动化测试
+针对功能类似于淘宝的litemall编写的自动化测试脚本。
 
 # 项目基本情况
 [V1.0版本](https://github.com/huangyong2002/litemall-web-autotest/tree/V1.0)  
