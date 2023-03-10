@@ -1,6 +1,9 @@
 # litemall-web-autotest
 针对功能类似于淘宝的litemall编写的自动化测试脚本。
 
+### 推荐书籍：
+[软件测试的艺术(原书第3版)_梅耶（Myers, G. J.）](https://weread.qq.com/web/bookDetail/2e8328c0721bc5672e85953)
+
 # 项目基本情况
 [V1.0版本](https://github.com/huangyong2002/litemall-web-autotest/tree/V1.0)  
 - [x] 基于CSS定位和Xpath定位实现元素的相对定位
